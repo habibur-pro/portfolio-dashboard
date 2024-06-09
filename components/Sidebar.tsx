@@ -15,9 +15,25 @@ const Sidebar = () => {
                     className="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
                   >
                     <LayoutDashboard />
-                    <span className="group-hover:text-gray-700">
-                      All Products
-                    </span>
+                    <span className="group-hover:text-gray-700">Projects</span>
+                  </Link>
+                </li>
+                <li className="min-w-max">
+                  <Link
+                    href="/dashboard/blogs"
+                    className="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
+                  >
+                    <LayoutDashboard />
+                    <span className="group-hover:text-gray-700">Blogs</span>
+                  </Link>
+                </li>
+                <li className="min-w-max">
+                  <Link
+                    href="/dashboard/skills"
+                    className="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
+                  >
+                    <LayoutDashboard />
+                    <span className="group-hover:text-gray-700">Skills</span>
                   </Link>
                 </li>
               </ul>
